@@ -1,0 +1,12 @@
+Create database clinica;
+use clinica;
+
+CREATE TABLE login (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(25) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+insert into login values(1,'amer','1234');
+insert into login values(2,'ahmed','5555');

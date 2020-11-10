@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.header{
+    overflow: hidden;
+    padding: 15px 30px;
+}
+.header a,button{
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+    color:#293462;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Amaranth;
+    text-align: center;
+    cursor: pointer;
+}
+.header a.head:hover {
+    color: #293462;
+    text-decoration: underline;
+}
+.header a.logo{
+    margin-right: 0px;
+    font-family: Aldrich;
+    float: left;
+    color: aliceblue;
+    font-size: 45px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.links {
+    float: right;
+}
+#sign{
+    background-color: #b5525c;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-align: center;
+    
+    width: 70px;
+    text-decoration: none;
+    margin-right: 0px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+    .header a,button {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .links {
+        float: none;
+    }
+}
+
+.logCont {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 35%;
+    background-color: rgba(255,255,255,0.4);
+    padding-top: 120px;
+}
+.logform {
+    background-color:black;
+    height: 50%;
+    position: absolute;
+    padding: 1% 5%;
+    border-radius: 30px;
+}
+.close {
+    float: right;
+    color:#b5525c ;
+    font-size: 40px;
+    font-family:Amaranth; 
+}
+.close:hover{
+    cursor: pointer;
+}
+.email{
+    margin-top: 10px;
+}
+.inp{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Amaranth;
+    color: #10153d;
+}
+#Re{
+    font-family: Amaranth;
+    color: #10153d;
+}
+label{
+    cursor:pointer;
+    font-family: Amaranth;
+    color: aliceblue;
+}
+#log{
+    color:aliceblue;
+    padding: 0px 10px;
+    font-family: Amaranth;
+    cursor: pointer;
+    background-color: #b5525c;
+    border-style: none;  
+    border-radius: 4px;
+    float: right;
+}
+.fpwd{
+    text-decoration: underline;
+    color:brown;
+    margin-top: 10px;
+}
+    /************************************************* Search **********************************************************/
+.content{
+    width: 80%;
+   padding-left: 100px;
+    display: inline-block;
+}
+
+.abouth{
+    margin-left: -50px;
+    font-size: 25px;
+    color: white;
+    font-family:Cantora One;
+}
+
+.aboutp{
+    color: white;
+    font-family:Cantora One;
+}
+.aboutp2{
+    color: white;
+    font-family:Cantora One;
+    display:grid;
+    grid-template-columns: auto auto ;
+}
+h2{
+    color: white;
+    font-family:Cantora One;    
+}
+
+
+.AD
+{
+    margin-top: 25px;
+    display: inline-block;
+    float: right;
+    background-color:aliceblue;
+    border: 2px solid gray;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right-style: none;
+    width: 10%;
+    height: 300px;
+    overflow: visible;
+    
+}
+#para
+{
+    color: black;
+    font-family: Amaranth;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 3px;
+}

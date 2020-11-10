@@ -1,0 +1,126 @@
+body
+{
+    margin: auto;
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+}
+.cli
+{
+    margin-left: 33%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Aldrich;
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.form-ox
+{
+    width: 400px;
+    padding:20px;
+    height: 490px;
+    position: relative;
+    margin: 20px auto;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.ottuo-ox
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 30px #76a8c7;
+    border-radius: 30px; 
+}
+
+.togle-btn
+{
+    font-family: Amaranth;
+    padding: 10px 35px ;
+    cursor: pointer;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    position: relative;
+    font-size: 13px;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#5533ff,#58baff);
+    border-radius: 30px;
+    transition:.5s;
+}
+.iput-group
+{
+    top: 150px;
+    position: absolute;
+    width: 75%;
+    transition:.5s;
+    font-family: Amaranth;
+
+}
+.iput-field
+{
+    font-family: Amaranth;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0 ;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: .5px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 70%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 53px;
+    margin-top: 20px;
+    background: linear-gradient(to right,#5533ff,#58baff);
+    border:0 ;
+    outline: none;
+    border-radius: 30px;
+    font-family:  Amaranth; 
+}
+.check-box
+{
+    margin: 50px 10px 30px 0;
+    
+}
+spam
+{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#log
+{
+    left: 50px;
+}
+#reg
+{
+    top: 100px;
+    left: 450px;
+}
+a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+#para{
+    color: black;
+    font-family: Amaranth;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 3px;
+}

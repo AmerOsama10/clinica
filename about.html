@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clinica Test-Area</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/aboutstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cantora One' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <a href="Clinica.html" class="logo"><i class="fas fa-map-marked-alt" style="font-size:45px; color:aliceblue; margin-right: 15px;"></i><b>Clinca</b></a>
+            </div>
+            <div class="links">
+                <a href="Clinica.html" class="head"><b>Home</b></a>
+                <a href="search.html" class="head"><b>Test Area</b></a>
+                <a href="about.html" class="head"><b>About Us</b></a>
+                <button onclick="document.getElementById('123').style.display='block'" id="sign" style="margin-right: 10px; border-style: none;">Sign in</button>
+                <a href="signup.html" id="sign">Sign Up </a>
+            </div>
+        </div>
+        <!--************************************************sign in******************************************************-->
+        
+        
+        <div id="123" class="logCont">
+            <form action="/action_page.php " style="width: 30%;" class="logform">
+                <span onclick="document.getElementById('123').style.display='none'"class="close">&times;</span><br>
+                <div>
+                    <input type="text" placeholder="Enter Username" name="uname" required class="inp">
+                    <input type="password" placeholder="Enter Password" name="psw" required class="inp">
+                </div>
+                <div style="display: inline-block; float:left;  width: 70%;">
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" id="Re">Remember me
+                    </label><br>
+                    <a href="#" class="fpwd">forget passward !</a>
+                </div>
+                <div style="display: inline-block; float:right;  width: 30%;">
+                    <button type="submit" id="log">enter...</button>
+                </div>
+            </form>
+        </div> 
+        <!------------------------*****************************About us************************---------------------------->
+        <div style="position: relative; overflow: hidden; margin: 80px auto">
+            <div class="content">
+                <h1 class="abouth">what's Clinica ?</h1>
+                <p class="aboutp">
+                    Clinica is a website designed to help doctors find the best place to open their clinic in the area they
+                    define
+                </p>
+                <h1 class="abouth">who are we ?</h1>
+                <div class="aboutp2">
+                    <div>
+                        <h2>Mohamed Ahmed</h2>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2>Ahmed Rizk</h2>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2>Esraa ElZoghby</h2>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2>Eman Abood</h2>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2>Amer Osama</h2>
+                        <p></p>
+
+                    </div>
+                    <div>
+                        <h2>Abd ElHammed Mohamed</h2>
+                        <p></p>
+
+                    </div>
+                    <div>
+                        <h2>Rana Hamed</h2>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2>Maamon Turkey</h2>
+                        <p>
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Mahmoud Ahmed</h2>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2>Nermeen Naser</h2>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="AD"></div>
+        </div>
+        <div style="background-color:rgba(255,255,255,0.5); padding: 10px;">
+            <p id="para"><b>Clinica2020@gmail.com<br>Contact US...</b></p>
+        </div>
+        
+        
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("slides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+            }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+</html>

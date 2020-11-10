@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title> Clinica Registeration </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/signupcss.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cantora One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="cli">
+            <a href="Clinica.html"><i class="fas fa-map-marked-alt" style="font-size:50px; margin-right: 20px;">                </i>Clinica</a>
+        </div>
+        
+        <div class= "form-ox">
+            <div class="ottuo-ox">
+                <div id="btn" ></div>
+                <button type="button" class="togle-btn" onclick= "login()" >LogIn</button>
+                <button type="button" class="togle-btn" onclick= "Signup()" >SignUp </button>
+            </div>
+            <form id="log" class="iput-group">
+                <input type="text" class="iput-field" placeholder="username">
+                <input type="password" class="iput-field" placeholder="password">
+                <input type="checkbox" class="check-box" ><span>Remmber Password</span>
+                <button type="submit" class= "submit-btn">Submit</button>
+            </form>
+            <form id="reg" class="iput-group">
+                <input type="text" class="iput-field" placeholder="FullName" required>
+                <input type="email" class="iput-field" placeholder="Email" required>
+                <input type="password" class="iput-field" placeholder="password" required>
+                <input type="text" class="iput-field" placeholder="Medical field" required>
+                <input type="text" class="iput-field" placeholder="Phone Number">
+                <input type="date" class="iput-field" placeholder="Date Of Birth">
+                <input type="text" class="iput-field" placeholder="Address">
+                <input type="radio" name="your gender" id="your gender" style="margin-left: 70px">Male
+                <input type="radio" name="your gender" id="your gender" style="margin-left: 70px">Female
+                <button type="submit" class= "submit-btn">Enter..</button>
+            </form>
+        </div>
+        
+        <div style="background-color:rgba(255,255,255,0.5); padding: 10px; ">
+            <p id="para"><b>Clinica2020@gmail.com<br>Contact US...</b></p>
+        </div>
+    <!--******************************************** SCRIPT ************************************************-->
+        <script>
+                var x = document.getElementById("log");
+                var y = document.getElementById("reg");
+                var z = document.getElementById("btn");
+                function Signup() {
+                    x.style.left ="-400px";
+                    y.style.left ="50px";
+                    z.style.left ="110px";
+                }
+                function login() {
+                    x.style.left ="50px";
+                    y.style.left ="450px";
+                    z.style.left ="0px";
+                }
+        </script>
+        
+    </body>    
+</html>

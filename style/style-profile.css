@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.header{
+    overflow: hidden;
+    padding: 15px 30px;
+}
+.header a,button{
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+    color:#293462;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Amaranth;
+    text-align: center;
+    cursor: pointer;
+}
+.header a.head:hover {
+    color: #293462;
+    text-decoration: underline;
+}
+.header a.logo{
+    margin-right: 0px;
+    font-family: Aldrich;
+    float: left;
+    color: aliceblue;
+    font-size: 45px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.links {
+    float: right;
+}
+#sign{
+    background-color: #b5525c;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 70px;
+    text-decoration: none;
+    margin-right: 0px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+    .header a,button {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .links {
+        float: none;
+    }
+}
+
+
+/**************************************************************************************************************************/
+
+#simpleform{
+    float: left;
+    display: inline-block;
+    width: 80%;
+    padding: 2%;
+}
+.proimg{
+    width: 10%;
+}
+#simpleform{
+    float: left;
+    display: inline-block;
+    width: 80%;
+    padding: 2%;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px;
+    border-style: none;
+    border-bottom:1px solid #293462;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    resize: vertical;
+    height: 33px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: aliceblue;
+}
+input[type=submit] {
+    background-color: #293462;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.lab {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.put {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .lab, .put, input[type=submit] {
+    width: 100%;
+    margin-top: 4px;
+    margin-left: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.AD
+{
+    margin-top: 25px;
+    display: inline-block;
+    float: right;
+    background-color:aliceblue;
+    border: 2px solid gray;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right-style: none;
+    width: 10%;
+    height: 300px;
+    overflow: visible;
+    
+}
+#para
+{
+    color: black;
+    font-family: Amaranth;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
